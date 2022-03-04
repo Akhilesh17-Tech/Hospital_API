@@ -23,6 +23,6 @@ app.listen(port, function (err) {
     console.log("Error in running server!", err);
     return;
   }
-  console.log("Express server running fine on port : ", port);
+  console.log("Express server running fine on port : " + port);
   return;
 });
