@@ -8,10 +8,10 @@ This is API for managing hospital such as creating doctors account, adding patie
 
 If you would like to download the code and try it for yourself:
 
-1. Clone the repo: `git clone https://github.com/dheerajk7/Hospital-API.git`
+1. Clone the repo: `https://github.com/Akhilesh17-Tech/Hospital_API.git`
 2. Install packages: `npm install`
 3. Launch: Run `npm start` to run server
-4. Visit in your browser at: `http://localhost:8080`
+4. Visit in your browser at: `http://localhost:3000`
 
 ## Functionalities
 
@@ -21,14 +21,14 @@ If you would like to download the code and try it for yourself:
 4. Report Creation
 5. Getting report of particular patient with patient ID
 6. Getting report with the status
-7. Getting report wwith report code
+7. Getting report with report code
 
 ## Routes
 
-1. /doctors/register -> with user phone number, name, password and confirm password
-2. /doctors/login -> return JWT to be used for authentication
-3. /patients/register -> with patient phone number and name these requires docter's login
-4. /patients/:id/create_report -> Creating report these requires doctor's login
-5. /patients/:id/all_reports -> Getting all reports with patient ID these requires doctor's login
-6. /reports/:status -> Getting all the report with particular status these requires doctor's login
-7. /reports/:code -> Getting report with the code these doesn't requires doctor's login
+1. /doctor/register -> with user phone number, name, password and confirm password
+2. /doctor/login -> return JWT to be used for authentication
+3. /patient/register -> with patient phone number and name these requires docter's login
+4. /patient/:id/create_report -> Creating report these requires doctor's login
+5. /patient/:id/all_reports -> Getting all reports with patient ID these requires doctor's login
+6. /report/:status -> Getting all the report with particular status these requires doctor's login
+7. /report/:code -> Getting report with the code these doesn't requires doctor's login
