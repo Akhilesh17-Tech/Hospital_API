@@ -3,7 +3,7 @@ const Report = require("../models/report");
 module.exports.getReportWithStatus = async function (req, res) {
   try {
     let status = req.body.status.toLowerCase();
-    console.log("==========pppp=========", status);
+    // console.log("===================", status);
 
     //for matching params status with these status
     let statusValues = [
