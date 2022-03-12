@@ -31,4 +31,4 @@ If you would like to download the code and try it for yourself:
 4. /patient/:id/create_report -> Creating report these requires doctor's login
 5. /patient/:id/all_reports -> Getting all reports with patient ID these requires doctor's login
 6. /report/:status -> Getting all the report with particular status these requires doctor's login
-7. /report/:code -> Getting report with the code these doesn't requires doctor's login
+7. /report/get_report/:code -> Getting report with the code these doesn't requires doctor's login
